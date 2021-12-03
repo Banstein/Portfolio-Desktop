@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-desktop",
+  "version": "1.0.0",
+  "description": "Mobile version and setup of the figma design showing my skills of creating successful websites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Banstein/Portfolio-Desktop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Banstein/Portfolio-Desktop/issues"
+  },
+  "homepage": "https://github.com/Banstein/Portfolio-Desktop#readme",
+  "devDependencies": {
+    "hint": "^6.1.9",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
