@@ -340,14 +340,16 @@ footer {
 }
 
 @media (min-width: 992px) {
-  body {
+  header article,
+  main > section {
     width: calc(100% - 60px);
     margin: 0 auto;
   }
 }
 
 @media (min-width: 1100px) {
-  body {
+  header article,
+  main > section {
     width: calc(100% - 60px);
     margin: 0 auto;
   }
