@@ -198,6 +198,8 @@ button {
   background-color: var(--bg-two);
 }
 
+/* about */
+
 .about-content-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -338,9 +340,16 @@ footer {
   color: #fff;
 }
 
-.end-break {
-  width: 134px;
-  border: 2px black solid;
-  margin: 0 auto;
-  border-radius: 10px;
+@media (min-width: 992px) {
+  body {
+    width: calc(100% - 60px);
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1100px) {
+  body {
+    width: calc(100% - 60px);
+    margin: 0 auto;
+  }
 }
