@@ -1,25 +1,26 @@
+/* stylelint-disable custom-property-empty-line-before */
+
 * {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   padding: 0;
   margin: 0;
-  --default:#fff;
-  --color-one:#6070ff;
-  --color-two:#396df2;
-  --color-three:#344563;
-  --color-four:#396DF2;
-  --color-five:#091E42;
-  --color-six:#172b4d;
-  --color-social:#7F8CFF;
-  --bg-one:#ebebff;
-  --bg-two:#4053fc;
-  --icon:#505f79;
-  --vector:#acb7c3;
+  --default: #fff;
+  --color-one: #6070ff;
+  --color-two: #396df2;
+  --color-three: #344563;
+  --color-four: #396df2;
+  --color-five: #091e42;
+  --color-six: #172b4d;
+  --color-social: #7f8cff;
+  --bg-one: #ebebff;
+  --bg-two: #4053fc;
+  --icon: #505f79;
+  --vector: #acb7c3;
 }
 
-
 body {
-  background-color:#e5e5e5;
+  background-color: #e5e5e5;
 }
 
 /* header bar */
@@ -43,6 +44,7 @@ nav {
   height: 40px;
   margin-right: 200px;
 }
+
 nav ul {
   list-style: none;
   display: flex;
@@ -50,7 +52,6 @@ nav ul {
 }
 
 nav ul li {
-
   color: var(--color-three);
   font-weight: 500;
   font-size: 15px;
@@ -72,7 +73,7 @@ nav ul li {
   background-position: center;
   background-size: auto;
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   margin: 40px 8px 77px 35px;
   padding: 288px 260px 400px 260px;
   border-bottom-left-radius: 100px;
@@ -92,7 +93,6 @@ nav ul li {
   color: var(--color-social);
   font-weight: 500;
   margin: 12px 0 16px 0;
-
 }
 
 .social-conacts {
@@ -149,11 +149,6 @@ nav ul li {
   color: #7a869a;
 }
 
-.card-title li:first-child {
-  list-style: none;
-  color: var(--color-three);
-}
-
 .card-text {
   margin-top: 32px;
   margin-bottom: 24px;
@@ -176,6 +171,11 @@ nav ul li {
   margin-right: 8px;
   border-radius: 8px;
   list-style: none;
+}
+
+.card-title li:first-child {
+  list-style: none;
+  color: var(--color-three);
 }
 
 button {
@@ -209,14 +209,12 @@ button {
   background-color: var(--default);
   border-top-right-radius: 100px;
 }
+
 .about-title {
-  color: var(--color-five);
+  color: var(--color-three);
   font-size: 40px;
   font-weight: bold;
-}
-.about-text {
   margin: 12px 0;
-  color: var(--color-three);
 }
 
 .lang-skills {
@@ -301,6 +299,7 @@ footer {
 .container input::placeholder {
   color: #172b4d;
 }
+
 .contacts-form {
   width: 447px;
   margin: 0 auto 127px auto;
@@ -347,7 +346,7 @@ footer {
   }
 }
 
-@media (max-width: 1100px) {
+@media (min-width: 1100px) {
   body {
     width: calc(100% - 60px);
     margin: 0 auto;
