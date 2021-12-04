@@ -3,27 +3,6 @@
   "version": "1.0.0",
   "description": "Mobile version and setup of the figma design showing my skills of creating successful websites.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Banstein/Portfolio-Desktop.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Banstein/Portfolio-Desktop/issues"
-  },
-  "homepage": "https://github.com/Banstein/Portfolio-Desktop#readme",
-  "devDependencies": {
-    "hint": "^6.1.9",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
-  },
   "dependencies": {
     "abab": "^2.0.5",
     "abbrev": "^1.1.1",
@@ -465,7 +444,11 @@
     "strnum": "^1.0.4",
     "strtok3": "^6.2.4",
     "style-search": "^0.1.0",
+    "stylelint": "^13.13.1",
     "stylelint-config-recommended": "^4.0.0",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
     "sugarss": "^2.0.0",
     "supports-color": "^7.2.0",
     "svg-tags": "^1.0.0",
@@ -535,5 +518,22 @@
     "yargs-parser": "^20.2.9",
     "yauzl": "^2.10.0",
     "zwitch": "^1.0.5"
-  }
+  },
+  "devDependencies": {
+    "hint": "^6.1.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Banstein/Portfolio-Desktop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Banstein/Portfolio-Desktop/issues"
+  },
+  "homepage": "https://github.com/Banstein/Portfolio-Desktop#readme"
 }
