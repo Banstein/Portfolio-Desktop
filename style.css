@@ -112,6 +112,10 @@ nav ul li {
   margin-right: 19px;
 }
 
+.menu a:visited {
+  color: var(--color-three);
+}
+
 /* cards */
 
 .card {
