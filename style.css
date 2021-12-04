@@ -60,8 +60,8 @@ nav ul li {
 }
 
 .menu a {
-  color: var(--color-three);
   text-decoration: none;
+  color: var(--color-three);
 }
 
 /* main page */
@@ -111,10 +111,6 @@ nav ul li {
 .social-conacts a {
   color: var(--icon);
   margin-right: 19px;
-}
-
-.menu a:visited {
-  color: var(--color-three);
 }
 
 /* cards */
