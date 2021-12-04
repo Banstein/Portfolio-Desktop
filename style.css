@@ -349,6 +349,7 @@ footer {
   background: #2230d2;
   color: #fff;
 }
+
 button:hover {
   cursor: pointer;
 }
@@ -383,6 +384,8 @@ button:hover {
   .card-image {
     margin-left: auto;
     margin-right: auto;
+    width: 327px;
+    height: 270px;
   }
 
   .card-title li {
