@@ -67,7 +67,7 @@ nav ul li {
 }
 
 .header-page-container {
-  background-image: url(images/Header-background.png);
+  background-image: url(img/Header-background.png);
   background-color: var(--default);
   background-repeat: no-repeat;
   background-position: center;
@@ -255,7 +255,7 @@ footer {
 }
 
 .container {
-  background-image: url(images/contact-background.png);
+  background-image: url(img/contact-background.png);
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
