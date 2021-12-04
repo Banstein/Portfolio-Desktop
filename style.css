@@ -60,6 +60,7 @@ nav ul li {
 }
 
 .menu a {
+  color: var(--color-three);
   text-decoration: none;
 }
 
