@@ -14,17 +14,17 @@
 </head>
 <body>
   <header class="nav-bar">
-    <h1>My Logo</h1>
+    <h1><a href="#">My Logo</a></h1>
     <nav>
       <ul class="menu">
-        <li>Portofolio</li>
-        <li>About</li>
-        <li>Contact</li>
+        <a href="#cards-parent"><li>Portofolio</li></a>
+        <a href="#about-content"><li>About</li></a>
+        <a href="#contact"><li>Contact</li></a>
       </ul>
     </nav>
   </header>
   <main>
-    <article class="header-page">
+    <article id="header-page">
       <section class="header-page-container">
         <h2>I’m Islam<br>Glad to see you!</h2>
         <p>
@@ -40,9 +40,10 @@
         </ul>
       </section>
     </article>
-    <article class="cards-parent">
+    <article id="cards-parent">
       <section class="card">
-        <div class="image-block method1"><img src="img/card-1.png" alt="Missed Image" class="card-image reverse"></div>
+        <div class="image-block"><img src="img/card-1.png" alt="Missed Image" class="card-image reverse">
+        </div>
         <div class="card-block">
           <h2 class="card-header">Tonic</h2>
           <div class="card-title-container">
@@ -91,7 +92,7 @@
         </div>
       </section>
       <section class="card">
-        <div class="image-block method1"><img src="img/card-3.png" alt="Missed Image" class="card-image"></div>
+        <div class="image-block"><img src="img/card-3.png" alt="Missed Image" class="card-image"></div>
         <div class="card-block">
           <h2 class="card-header">Facebook 360</h2>
           <div class="card-title-container">
@@ -142,7 +143,7 @@
       </section>
     </article>
 <!-- About Start -->
-    <article class="about-content">
+    <article id="about-content">
       <section class="about-content-container">
         <div class="left-block">
           <h2 class="about-title">About<br>Myself</h2>
@@ -185,7 +186,7 @@
 <!-- form start -->
   <footer>
     <article class='container'>
-      <section>
+      <section id="contact">
           <h1>Contact me</h1>
           <p>If you have an application you are interested in<br>developing, a feature that you need built or a project<br>that needs coding. I’d love to help with it </p>
           <form action="https://formspree.io/f/xayvwlyd" method="post" class="contacts-form">

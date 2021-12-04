@@ -33,10 +33,11 @@ header {
   padding: 25px 155px;
 }
 
-header h1 {
+header h1 a {
   font-weight: bold;
   font-size: 18px;
   color: var(--color-one);
+  text-decoration: none;
 }
 
 nav {
@@ -55,12 +56,16 @@ nav ul li {
   color: var(--color-three);
   font-weight: 500;
   font-size: 15px;
-  padding-left: 32px;
+  margin-left: 32px;
+}
+
+.menu a {
+  text-decoration: none;
 }
 
 /* main page */
 
-.header-page {
+#header-page {
   background-color: var(--default);
   margin-top: -40px;
   border-bottom-left-radius: 100px;
@@ -71,7 +76,7 @@ nav ul li {
   background-color: var(--default);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   margin: 40px 8px 77px 35px;
@@ -111,10 +116,9 @@ nav ul li {
 
 .card {
   max-width: 1156px;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto;
-  column-gap: 22px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
   margin: 142px auto;
   padding: 24px;
   background-color: var(--default);
@@ -128,7 +132,6 @@ nav ul li {
 
 .reverse {
   order: -1;
-  margin-left: 24px;
 }
 
 .card-header {
@@ -200,14 +203,21 @@ button {
 
 /* about */
 
-.about-content-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto;
-  column-gap: 48px;
-  padding: 142px;
+#about-content {
+  display: flex;
+  justify-content: center;
   background-color: var(--default);
   border-top-right-radius: 100px;
+}
+
+.about-content-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 142px;
+}
+
+.left-block {
+  margin-right: 30px;
 }
 
 .about-title {
@@ -219,6 +229,7 @@ button {
 
 .lang-skills {
   padding: 24px 0;
+  width: 570px;
   display: flex;
   justify-content: space-between;
 }
@@ -256,7 +267,7 @@ footer {
 
 .container {
   background-image: url(img/contact-background.png);
-  background-size: auto;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #6070ff;
@@ -339,31 +350,53 @@ footer {
   color: #fff;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 768px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  .header-page-container {
+    margin: 40px 8px 77px 35px;
+    padding: 188px 0 300px 0;
+  }
+
+  .header-page-container h2 {
+    color: var(--color-five);
+    font-size: 38px;
+    font-weight: 700;
+  }
+
+  .header-page-container p {
+    font-size: 15px;
+  }
+
   .card {
-    width: calc(100% - 120px);
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .card-image {
     margin-left: auto;
     margin-right: auto;
   }
 
   .card-title li {
-    font-size: 14px;
+    font-size: 17px;
   }
+}
 
-  .card-skills li {
-    font-size: 10px;
+@media (min-width: 992px) and (max-width: 1100px) {
+  .card {
+    width: calc(100% - 120px);
+    margin-left: 60px;
+    margin-right: 60px;
   }
 
   .card-image {
     width: 490px;
-    height: 404px;
-  }
-}
-
-@media (min-width: 1100px) {
-  .card {
-    width: calc(100% - 120px);
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
