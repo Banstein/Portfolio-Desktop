@@ -69,7 +69,7 @@ nav ul li {
 .header-page-container {
   background-image: url(img/Header-background.png);
   background-color: var(--default);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
   display: flex;
