@@ -4,6 +4,7 @@ Mobile version and setup of the figma design showing my skills of creating succe
 ## Screenshots
 
  **Desktop version**
+ 
  Welcome Page
  ![desktop-welcome](https://user-images.githubusercontent.com/35707975/144716015-d514f0eb-81b2-4a98-a16a-a548f3884137.png)
 
@@ -17,6 +18,7 @@ Mobile version and setup of the figma design showing my skills of creating succe
 ![desktop-contact](https://user-images.githubusercontent.com/35707975/144716041-02388053-ce4d-4bd2-99c8-7761aaf2f3e9.png)
 
 **Mobile version**
+
 Welcome Page
 ![mobile-welcome](https://user-images.githubusercontent.com/35707975/144716094-4cc4874e-1cc0-4f5c-b1bb-8c92fdbb8e54.png)
 
