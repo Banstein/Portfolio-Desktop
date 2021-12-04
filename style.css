@@ -76,7 +76,7 @@ nav ul li {
   background-color: var(--default);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   display: flex;
   flex-direction: column;
   margin: 40px 8px 77px 35px;
@@ -267,7 +267,7 @@ footer {
 
 .container {
   background-image: url(img/contact-background.png);
-  background-size: cover;
+  background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #6070ff;
