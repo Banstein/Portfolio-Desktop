@@ -1,6 +1,10 @@
 # Portfolio
 Mobile version and setup of the figma design showing my skills of creating successful websites.
 
+## Live Page
+
+[Portfolio](https://banstein.github.io/Portfolio-Desktop/)
+
 ## Screenshots
 
  **Desktop version**
@@ -39,10 +43,6 @@ Contact Page
 
 ![mobile-contact](https://user-images.githubusercontent.com/35707975/144716107-89971388-4de1-4da3-8d29-032dcdeda524.png)
 
-
-## Live Demo
-
-[Portfolio](https://banstein.github.io/Portfolio-Desktop/)
 
 ## Built With!
 
